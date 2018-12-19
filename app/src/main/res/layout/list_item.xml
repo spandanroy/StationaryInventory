@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/activity_margin">
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="@dimen/single_item_namefield_marginBottom"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="@color/order_now_button_color" />
+
+    <TextView
+        android:id="@+id/rupees_symbol"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/name"
+        android:text="@string/editorActivity_rupees_symbol"
+        android:textAppearance="?android:textAppearanceSmall"
+        android:textColor="@color/list_item_text_color" />
+
+    <TextView
+        android:id="@+id/price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/name"
+        android:layout_toEndOf="@id/rupees_symbol"
+        android:layout_toRightOf="@id/rupees_symbol"
+        android:textAppearance="?android:textAppearanceSmall"
+        android:textColor="@color/list_item_text_color" />
+
+    <Button
+        android:id="@+id/sell_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="@dimen/list_item_button_marginBottom"
+        android:focusable="false"
+        android:text="@string/sell_button"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="@color/order_now_button_color" />
+
+    <TextView
+        android:id="@+id/quantity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/sell_button"
+        android:layout_marginEnd="@dimen/margin_from_parentRight"
+        android:layout_marginRight="@dimen/margin_from_parentRight"
+        android:textAppearance="?android:textAppearanceSmall"
+        android:textColor="@color/list_item_text_color" />
+</RelativeLayout>

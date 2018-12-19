@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#060631</color>
+    <color name="colorPrimaryDark">#010520</color>
+    <color name="colorAccent">#ff4000</color>
+
+    <!-- Primary color for the editor -->
+    <color name="editorColorPrimary">#ff2119</color>
+
+    <!-- Primary dark color for the editor -->
+    <color name="editorColorPrimaryDark">#C0403C</color>
+    <color name="empty_list_text_color">#A2AAB0</color>
+    <color name="order_now_button_color">#2B3D4D</color>
+    <color name="list_item_text_color">#AEB6BD</color>
+</resources>

@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Stationary Inventory</string>
+    <string name="action_insert_dummy_data">Insert Dummy data</string>
+    <string name="action_delete_all_entries">Delete all entries</string>
+    <string name="action_save">Save</string>
+    <string name="action_delete">Delete</string>
+    <string name="editor_activity_title_new_product">Add new product</string>
+
+
+    <string name="product_name">Product Name</string>
+    <string name="price">Price</string>
+    <string name="quantity">Quantity</string>
+    <string name="supplier_name">Supplier Name</string>
+    <string name="supplier_phone_no">Supplier Phone No.</string>
+    <string name="hint_rupees">Rs.\u0020\u0020\u0020\u0020\u00200.0</string>
+    <string name="hint_name_of_product">name</string>
+    <string name="hint_quantity_of_product">no.</string>
+    <string name="hint_company_name">company name</string>
+    <string name="hint_telephone_no">###-###-####</string>
+    <string name="editor_activity_title_edit_product">Edit product</string>
+    <string name="editor_insert_product_failed">Error with saving product</string>
+    <string name="editor_insert_product_successful">Product saved</string>
+    <string name="editor_update_product_successful">Product updated</string>
+    <string name="editor_update_product_failed">Error in product update</string>
+    <string name="unsaved_changes_dialog_msg">Discard your changes and quit editing?</string>
+    <string name="discard">Discard</string>
+    <string name="keep_editing">Keep Editing</string>
+    <string name="delete_dialog_msg">Delete this product</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+    <string name="editor_delete_pet_successful">Product deleted</string>
+    <string name="editor_delete_product_successful">Product deleted</string>
+    <string name="editor_delete_product_failed">Error with deleting product</string>
+    <string name="out_of_stock">Out of stock</string>
+    <string name="no_phone_no">Please include a phone no.</string>
+    <string name="decrement">-</string>
+    <string name="increment">+</string>
+    <string name="empty_view_title_text">Nothing to display</string>
+    <string name="empty_view_subtitle_text">Get started by adding a product.</string>
+    <string name="empty_view_subtitle_text_details">Enter a product\'s name, price, quantity.</string>
+    <string name="cannot_be_negative">Quantity cannot be negative</string>
+    <string name="need_a_name">Need a product name</string>
+    <string name="starting_quantity">0</string>
+    <string name="order_now_button">Order Now</string>
+    <string name="editorActivity_rupees_symbol">Rs. </string>
+    <string name="sell_button">Sell</string>
+    <string name="need_a_supplier_name">Need a supplier name</string>
+    <string name="need_a_phone_no">Need a supplier phone no</string>
+</resources>
